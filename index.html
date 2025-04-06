@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <title>4-track Preservation Project</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+            @font-face {
+                font-family: 'Lato';
+                src: url(Lato-Regular.ttf);
+            }
+            
+            body {
+                background: url("data:image/svg+xml;charset=utf-8;base64,PHN2ZyBvcGFjaXR5PSIwLjIiIHdpZHRoPSI4MDBweCIgaGVpZ2h0PSI4MDBweCIgdmlld0JveD0iMCAwIDgwMCA4MDAiIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2Zyc+PGZpbHRlciBpZD0nbm9pc2VGaWx0ZXInPjxmZVR1cmJ1bGVuY2UgdHlwZT0nZnJhY3RhbE5vaXNlJyBiYXNlRnJlcXVlbmN5PScwLjY1JyBudW1PY3RhdmVzPSczJyBzdGl0Y2hUaWxlcz0nc3RpdGNoJyAvPjwvZmlsdGVyPjxyZWN0IHdpZHRoPScxMDAlJyBoZWlnaHQ9JzEwMCUnIGZpbHRlcj0ndXJsKCNub2lzZUZpbHRlciknIC8+PC9zdmc+"), linear-gradient(112.1deg, #101010 10%, #505050 80%);
+                color: white;
+            }
+            
+            h1, h2 {
+                font-family: 'Lato';
+            }
+            
+            .dl {
+                background-color: slategrey;
+                border: none;
+                border-radius: 20px;
+                color: white;
+                padding: 10px 20px;
+                cursor: pointer;
+                font-size: 20px;
+                font-family: 'Lato';
+                transition: background-color 0.5s ease;
+            }
+
+            .dl:hover {
+                background-color: dodgerblue;
+            }
+            
+            .dlbox {
+                margin: auto;
+                width: 28%;
+            }
+        </style>
+    </head>
+    <body>
+        <center><br><br>
+            <img src="logo.png" width="50%"><br><br><br>
+            <h1>Coming soon...</h1><br><br><br>
+            <h2>Sample</h2>
+            <img src="lionel.png" width="400px" height="400px"><br><br>
+            <audio controls autoplay style="width: 400px;">
+                <source src="https://4tpp.s3.us-east-1.amazonaws.com/sample-hd.flac">
+            </audio>
+        </center><br>
+        <div class="dlbox">
+            <a href="https://4tpp.s3.us-east-1.amazonaws.com/sample-master.dsf" download>
+                <button class="dl"><i class="fa fa-download"></i> DSF (Pure DSD, 128fs, 5.6 MHz/1-bit)</button>
+            </a><br><br>
+            <a href="https://4tpp.s3.us-east-1.amazonaws.com/sample-hd.flac" download>
+                <button class="dl"><i class="fa fa-download"></i> FLAC (PCM, Hi-res, 88.2 kHz/24-bit)</button>
+            </a><br><br>
+            <a href="https://4tpp.s3.us-east-1.amazonaws.com/sample-cd.flac" download>
+                <button class="dl"><i class="fa fa-download"></i> FLAC (PCM, CD, 44.1 kHz/16-bit)</button>
+            </a><br><br>
+        </div><br><br>
+    </body>
+</html>
