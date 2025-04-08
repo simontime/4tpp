@@ -10,15 +10,14 @@
                 src: url(Lato-Regular.ttf);
             }
             
-            body {
-                background: url("data:image/svg+xml;charset=utf-8;base64,PHN2ZyBvcGFjaXR5PSIwLjIiIHdpZHRoPSI4MDBweCIgaGVpZ2h0PSI4MDBweCIgdmlld0JveD0iMCAwIDgwMCA4MDAiIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2Zyc+PGZpbHRlciBpZD0nbm9pc2VGaWx0ZXInPjxmZVR1cmJ1bGVuY2UgdHlwZT0nZnJhY3RhbE5vaXNlJyBiYXNlRnJlcXVlbmN5PScwLjY1JyBudW1PY3RhdmVzPSczJyBzdGl0Y2hUaWxlcz0nc3RpdGNoJyAvPjwvZmlsdGVyPjxyZWN0IHdpZHRoPScxMDAlJyBoZWlnaHQ9JzEwMCUnIGZpbHRlcj0ndXJsKCNub2lzZUZpbHRlciknIC8+PC9zdmc+"), linear-gradient(112.1deg, #101010 10%, #505050 80%);
-                color: white;
-            }
-            
-            h1, h2 {
+            h1, h2, h3, p {
                 font-family: 'Lato';
             }
             
+			p {
+				text-align: left;
+			}
+			
             .dl {
                 background-color: slategrey;
                 border: none;
@@ -37,30 +36,52 @@
             
             .dlbox {
                 margin: auto;
-                width: 28%;
             }
+			
+			.release {
+				max-width: 50%;
+			}
         </style>
     </head>
     <body>
-        <center><br><br>
-            <img src="logo.png" width="50%"><br><br><br>
-            <h1>Coming soon...</h1><br><br><br>
-            <h2>Sample</h2>
-            <img src="lionel.png" width="400px" height="400px"><br><br>
-            <audio controls autoplay style="width: 400px;">
-                <source src="https://4tpp.s3.us-east-1.amazonaws.com/sample-hd.flac">
-            </audio>
-        </center><br>
-        <div class="dlbox">
-            <a href="https://4tpp.s3.us-east-1.amazonaws.com/sample-master.dsf" download>
-                <button class="dl"><i class="fa fa-download"></i> DSF (Pure DSD, 128fs, 5.6 MHz/1-bit)</button>
-            </a><br><br>
-            <a href="https://4tpp.s3.us-east-1.amazonaws.com/sample-hd.flac" download>
-                <button class="dl"><i class="fa fa-download"></i> FLAC (PCM, Hi-res, 88.2 kHz/24-bit)</button>
-            </a><br><br>
-            <a href="https://4tpp.s3.us-east-1.amazonaws.com/sample-cd.flac" download>
-                <button class="dl"><i class="fa fa-download"></i> FLAC (PCM, CD, 44.1 kHz/16-bit)</button>
-            </a><br><br>
-        </div><br><br>
+        <center>
+            <img src="logo.png" width="50%">
+			<br><br>
+            <h1>Full site coming soon...</h1>
+			<br><br>
+			<div class="release">
+				<h1>Bobby Hackett - Creole Cookin'</h1>
+				<img src="BobbyHackett-CreoleCookin-Cover.jpg" width="400px" height="400px"><br>
+				<h2>Exclusive - first ever digital release!!!</h2>
+				<p>
+					I am extremely proud to release the first digital version of the long out-of-print 1967 Dixieland jazz album - Creole Cookin' - by cornetist Bobby Hackett, in Pure DSD!<br>
+					This album features tenor great Zoot Sims, and is considered "essential" and "one of [Hackett's] finest all-around recordings", rated 4.5 stars by Scott Yanow of AllMusic.<br>
+				</p>
+				<h3>Technical info:</h3>
+				<p>
+					<b>Source</b>: 4-track 7.5 ips open-reel tape<br>
+					<b>Tape deck</b>: TEAC A-3440 (serviced and reconditioned)<br>
+					<b>Interconnect</b>: World's Best Cables - Mogami 2549/Amphenol ACPR Gold<br>
+					<b>A/D converter</b>: KORG DS-DAC-10R (uses the BB PCM4202 - TRUE 1-bit DSD output)<br>
+					<b>Transferred flat; unedited, unadulterated, untouched!</b>
+				</p>
+				<h3>Sample:</h3>
+				<audio controls autoplay style="width: 400px;">
+					<source src="https://4tpp.s3.us-east-1.amazonaws.com/sample.flac">
+				</audio>
+				<h3>Downloads:</h3>
+				<div class="dlbox">
+					<a href="https://4tpp.s3.us-east-1.amazonaws.com/BobbyHackett-CreoleCookin-DSD128.zip" download>
+						<button class="dl"><i class="fa fa-download"></i> DSF (Pure DSD, 128fs, 5.6 MHz/1-bit)</button>
+					</a><br><br>
+					<a href="https://4tpp.s3.us-east-1.amazonaws.com/BobbyHackett-CreoleCookin-FLAC-HD.zip" download>
+						<button class="dl"><i class="fa fa-download"></i> FLAC (PCM, Hi-res, 88.2 kHz/24-bit)</button>
+					</a><br><br>
+					<a href="https://4tpp.s3.us-east-1.amazonaws.com/BobbyHackett-CreoleCookin-FLAC-CD.zip" download>
+						<button class="dl"><i class="fa fa-download"></i> FLAC (PCM, CD, 44.1 kHz/16-bit)</button>
+					</a><br><br>
+				</div>
+			</div>
+		</center>
     </body>
 </html>
